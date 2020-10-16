@@ -7,3 +7,26 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+/* utility */
+.bg_lightblue {
+  background: #f4f9fd;
+}
+.bg_pink {
+  background: #fff4ef;
+}
+.bg_darkblue {
+  background:	#33475b;
+}
+.bg_orange {
+  background: #fe775a;
+}
+.bg_bluesky {
+  background: #afebe4;
+}
+.bg_turquoise {
+  background: #00aeb3;
+}
+.bg_lightblack {
+  background: #32495b;
+}
+/* /utility */

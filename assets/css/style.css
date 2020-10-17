@@ -14,8 +14,8 @@ body {
 .bg_pink {
   background: #fff4ef;
 }
-.bg_darkblue {
-  background:	#33475b;
+.color_darkblue {
+  color:	#33475b;
 }
 .bg_orange {
   background: #fe775a;
@@ -29,4 +29,71 @@ body {
 .bg_lightblack {
   background: #32495b;
 }
+.container {
+  width: 80%;
+  margin: auto;
+}
 /* /utility */
+/* site */
+#site_header {
+  height: 500px;
+}
+#site_content {
+  height: 1000px;
+}
+#site_footer {
+  height: 150px;
+}
+/* /site */
+/* nav top */
+.nav_top {
+  height: 80px;
+  font-size: 15px;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+.nav_top::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* menu left */
+.menu_left, .menu_right {
+  float: left;
+}
+.menu_left a {
+  color:	#33475b;
+  text-decoration: none;
+}
+.menu_left a{
+  padding: 2px;
+}
+.menu_left {
+  width: 60%;
+}
+/* /menu left */
+/* menu right */
+.menu_right {
+  width: 40%;
+  text-align: right;
+}
+.menu_right i, .menu_right a {
+  margin: 10px;
+}
+.menu_right i {
+  color: #00aeb3;
+}
+.btn_sm {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #fe775a;
+  text-decoration: none;
+}
+.text_orange {
+  color: #fe775a;
+}
+.text_white {
+  color: white;
+}
+/* /menu right */
+/* /nav top */

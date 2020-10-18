@@ -141,7 +141,6 @@ body {
   right: 60%;
   position: absolute;
 }
-
 .hero_image h1 {
   font-size: 3em;
   margin-bottom: 20px;
@@ -166,10 +165,59 @@ body {
 }
 /* /hero */
 /* rectangle block */
-.rectangle_block {
+.rectangle_box {
   height: 80px;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
 /* /rectangle block */
 /* /header */
+/* main */
+/* section */
+.section {
+  margin-top: 3px;
+  height: 100%;
+}
+.section img {
+  margin-top: 25px;
+  height: 150px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.section h2 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+.section p {
+  margin: 0 28%;
+  line-height: 30px;
+}
+
+.section h2, p {
+  text-align: center;
+}
+/* /section */
+/* long card */
+.long_card {
+  margin-top: 30px;
+  height: 30%;
+  width: 80%;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid #f4f9fd;
+}
+.Long_card::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lc_left {
+  width: 30%;
+  height: auto;
+  padding: 0 5%;
+  text-align: center;
+}
+.lc_left img {
+  height: 110px;
+  margin-bottom: 20px;
+}

@@ -15,7 +15,7 @@ body {
   background: #fff4ef;
 }
 .color_darkblue {
-  color:	#33475b;
+  color: #33475b;
 }
 .bg_orange {
   background: #fe775a;
@@ -45,7 +45,7 @@ body {
   height: 900px;
 }
 #site_content {
-  height: 1500px;
+  height: 2000px;
 }
 #site_footer {
   height: 150px;
@@ -263,6 +263,9 @@ body {
 /* /lc right */
 /* /long card */
 /* row_3 */
+.row_3 {
+
+}
 .row_3::after {
   content: "";
   display: table;
@@ -396,6 +399,15 @@ body {
   display: table;
   clear: both;
 }
+.logo_sponsor_top img {
+  height: 25px;
+  margin: 20px;
+}
+.logo_sponsor_bottom img {
+  height: 35px;
+  margin: 20px;
+}
+
 .r7_left, .r7_right{
   margin-top: 40px;
   float: left;
@@ -404,10 +416,11 @@ body {
   width: 30%;
 }
 .number_costumers{
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 600;
   margin: 20px 120px;
   text-align: left;
+  color: #33475b;
 }
 .text_costumers{
   margin: 0px 120px;
@@ -415,6 +428,7 @@ body {
   line-height: 30px;
 }
 .r7_right {
+  margin-top: 60px;
   width: 70%;
-  text-align: right;
+  text-align: center;
 }

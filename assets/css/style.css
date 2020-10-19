@@ -39,10 +39,10 @@ body {
 /* /utility */
 /* site */
 #site_header {
-  height: 880px;
+  height: 900px;
 }
 #site_content {
-  height: 1000px;
+  height: 1500px;
 }
 #site_footer {
   height: 150px;
@@ -175,42 +175,36 @@ body {
 /* main */
 /* section */
 .section {
-  margin-top: 3px;
   height: 100%;
 }
-.section img {
+.row_1 img {
   margin-top: 25px;
   height: 150px;
   margin-left: 50%;
   transform: translateX(-50%);
 }
-.section h2 {
+.row_1 h2 {
   margin-bottom: 30px;
   text-transform: capitalize;
 }
-.section p {
+.row_1 p {
   margin: 0 28%;
   line-height: 30px;
 }
-
-.section h2, p {
+.row_1 h2, p {
   text-align: center;
 }
-/* /section */
+/* /row_1 */
 /* long card */
 .long_card {
   margin-top: 30px;
-  height: 30%;
+  height: 25%;
   width: 80%;
   background: white;
   border-radius: 5px;
   border: 1px solid #f4f9fd;
 }
-.Long_card::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+/* lc left */
 .lc_left {
   width: 30%;
   height: auto;
@@ -219,5 +213,49 @@ body {
 }
 .lc_left img {
   height: 110px;
+  margin-top: 55px;
   margin-bottom: 20px;
 }
+/* /lc left */
+/* lc right */
+.lc_right {
+  width: 70%;
+  height: auto;
+  padding: 5% 5% 5% 5%;
+}
+.lc_right h4 {
+  text-transform: uppercase;
+  margin-right: 50px;
+}
+.lc_right h4, hr {
+  display: inline-block;
+}
+.lc_right h3, h4{
+  margin-bottom: 30px;
+}
+.lc_right p {
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 0 25% 0 0;
+}
+.lc_right hr {
+  height: 3px;
+  width: 60%;
+  margin: 4px 10px;
+  background-color: #33475b;
+}
+.mini_list a{
+  font-size: 14px;
+  padding: 10px;
+  color: #33475b;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.mini_list i {
+  font-size: 17px;
+  color: #fe775a;
+  text-transform: capitalize;
+}
+/* /lc right */
+/* /long card */

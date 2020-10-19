@@ -178,7 +178,7 @@ body {
 
 /* main */
 /* section lightblue*/
-.section {
+.section_lightblue {
   height: 100%;
 }
 .row_1 img {
@@ -365,7 +365,7 @@ body {
 }
 /* /row_5 */
 /* row_6 */
-.row_6 {
+.col_5 {
   margin-bottom: 80px;
 }
 .row_6 .square_box {
@@ -387,3 +387,34 @@ body {
 }
 /* /row_6 */
 /* /section turquoise */
+/* section white */
+.section_white {
+  height: 1000px;
+}
+.row_7::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.r7_left, .r7_right{
+  margin-top: 40px;
+  float: left;
+}
+.r7_left {
+  width: 30%;
+}
+.number_costumers{
+  font-size: 40px;
+  font-weight: 600;
+  margin: 20px 120px;
+  text-align: left;
+}
+.text_costumers{
+  margin: 0px 120px;
+  text-align: left;
+  line-height: 30px;
+}
+.r7_right {
+  width: 70%;
+  text-align: right;
+}

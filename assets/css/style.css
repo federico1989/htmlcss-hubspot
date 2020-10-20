@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: 'Roboto', sans-serif;
   min-width: 1400px;
@@ -127,6 +126,7 @@ body {
   text-align: right;
 }
 .right_main a {
+  color: #33475b;
   text-decoration: none;
 }
 /* /menu right */
@@ -390,9 +390,8 @@ body {
 /* /row_6 */
 /* /section turquoise */
 /* section white */
-/* /row_6 */
 .section_white {
-  height: 900px;
+  height: 700px;
 }
 .row_7::after {
   content: "";
@@ -458,7 +457,6 @@ body {
 /* /main */
 
 /* footer */
-/* footer list */
 .footer_list::after {
   content: "";
   display: table;
@@ -529,3 +527,5 @@ body {
 .cp_right {
   text-align: right;
 }
+/* /copyright */
+/* /footer */

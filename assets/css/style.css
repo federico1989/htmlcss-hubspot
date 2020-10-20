@@ -45,7 +45,7 @@ body {
   height: 900px;
 }
 #site_content {
-  height: 2000px;
+  height: 1500px;
 }
 #site_footer {
   height: 150px;
@@ -138,22 +138,22 @@ body {
   background-position: 100% 0;
   position: relative;
 }
-.hero_text {
+.hero_text, .main_text {
   top: 60px;
   left: 10%;
   right: 60%;
   position: absolute;
 }
-.hero_image h1 {
+.hero_image h1{
   font-size: 3em;
   margin-bottom: 20px;
 }
-.hero_image p {
+.hero_image p, .main_text p{
   font-weight: 200;
   line-height: 30px;
   margin-bottom: 20px;
 }
-.hero_image a {
+.hero_image a, .main_text a{
   margin-bottom: 20px;
 }
 .small_p {
@@ -391,6 +391,7 @@ body {
 /* /row_6 */
 /* /section turquoise */
 /* section white */
+/* /row_6 */
 .section_white {
   height: 1000px;
 }
@@ -407,7 +408,6 @@ body {
   height: 35px;
   margin: 20px;
 }
-
 .r7_left, .r7_right{
   margin-top: 40px;
   float: left;
@@ -418,12 +418,14 @@ body {
 .number_costumers{
   font-size: 60px;
   font-weight: 600;
-  margin: 20px 120px;
+  margin: 20px 200px;
   text-align: left;
   color: #33475b;
 }
 .text_costumers{
-  margin: 0px 120px;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-right: 70px;
   text-align: left;
   line-height: 30px;
 }
@@ -431,4 +433,24 @@ body {
   margin-top: 60px;
   width: 70%;
   text-align: center;
+}
+/* /row_7 */
+.row_8 {
+  position: relative;
+}
+.main_text {
+  top: 60px;
+  left: 10%;
+  right: 60%;
+  position: absolute;
+}
+.main_text h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.row_8 img {
+  height: 350px;
+  top: 150%;
+  right: 10%;
+  position: absolute;
 }

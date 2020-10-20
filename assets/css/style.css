@@ -494,3 +494,15 @@ body {
   margin-right: 25px;
 }
 /* /footer list */
+.languages_line {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+.languages_line li {
+  margin: 20px;
+  list-style: none;
+  text-transform: capitalize;
+  display: inline;
+}
+/* /languages list */
